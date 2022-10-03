@@ -1,0 +1,86 @@
+.container {
+    background: white;
+    height: 50px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15);
+    position:relative;
+    z-index:99;
+}
+.logoSection {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+}
+.logoSection .toggleIcon {
+    font-size: 27px;
+    cursor: pointer;
+    border: 1px solid white;
+    opacity: 0.5;
+}
+.logoSection span {
+    font-size: 20px;
+    font-weight: 700;
+    text-indent: 10px;
+    color: var(--main-color);
+    cursor: pointer;
+}
+.menuSection {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menuSection .contentSection {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding:5px;
+    cursor: pointer;
+    min-width:100px;
+    margin-right:20px;
+}
+.menuSection .contentSection span {
+    text-indent: 3px;
+}
+.menuSection .contentSection .icons {
+    color: var(--dark-color);
+    font-size: 22px;
+}
+.menuSection .shoppingCartSection {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    width:150px;
+    background:var(--main-color);
+    margin-right:20px;
+    padding:8px;
+    max-height:40px;
+    cursor: pointer;
+    border-radius:22px;
+    color:white
+}
+.menuSection .shoppingCartSection .icons
+{
+    font-size:18px;
+}
+.menuSection .shoppingCartSection span{
+    font-weight:500;
+} 
+.menuSection .shoppingCartSection div{
+    padding:2px;
+    min-width:20px;
+    min-height:20px;
+    background:var(--dark-color);
+    border-radius:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:12px;
+}
+@media (max-width:1000px)
+{
+    .menuSection
+    {
+        display:none;
+    }
+}
+

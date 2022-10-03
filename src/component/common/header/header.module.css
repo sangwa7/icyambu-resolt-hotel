@@ -1,0 +1,89 @@
+.container{
+    min-height:590px;
+    background:black;
+    background: url("../../../assets/images/hotel-hero.jpg");
+    background-blend-mode: multiply;
+    background-position:center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:1px;
+ }
+ .headerContainer{
+     min-height:300px;
+  
+ }
+ .headerText{
+   height:450px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:flex-end;
+   color:white;
+ 
+ }
+ .headerText h1{
+     font-size:4rem;
+ }
+ .headerSubText{
+     display:flex;
+     align-items: center;
+     justify-content:center;
+     margin-left:-2.6rem;
+     color:white;
+     margin-top:10px;
+ }
+ .CheckInRowcontainer
+ {
+    min-height:150px;
+    background:transparent
+ }
+ .CheckInColcontainer{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+ }
+ .CheckInColcontainer section{
+    width:70%;
+    min-height:100px;
+    background-color:white;
+    margin-top:-3rem;
+    box-shadow:0px 0px 10px 0px rgba(0,0,0,0.19);
+ }
+ .checkInFormContainer{
+    background:red;
+    width:100%;
+    padding:5px;
+ }
+ .checkInInput{
+    width:50%;
+    height:50px;
+    background-color:green;
+ }
+ .form
+ {
+    display: flex;
+    color:white;
+    justify-content:center;
+ }
+ .submitButton {
+    width:200px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 1rem;
+    background: var(--dark-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+}
+.submitButton span{
+    margin-left:5px;
+}
+.buttonHolder{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:54px;
+}
